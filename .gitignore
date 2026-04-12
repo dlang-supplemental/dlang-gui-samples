@@ -12,12 +12,14 @@ docs/
 __*
 *.lst
 *.json
+!**/.vscode/settings.json
+!**/.vscode/extensions.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
 dub.selections.json
 
-# IDE / VS Code
-.vscode/
+# IDE / VS Code — team defaults live in committed .vscode/ (root + per-example)
 .history/
-*.code-workspace
 
 # OS
 Thumbs.db

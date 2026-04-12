@@ -35,6 +35,11 @@ These are GUI libraries written specifically for D or with heavy D-specific desi
 - **[DlangUI](Native/dlangui)**: Cross-platform GUI for D.
 - **[DQuick](Native/dquick)**: A native D GUI library.
 
+## VS Code
+
+- Open the **repository root** for catalog-wide defaults (`.vscode/settings.json` recommends Code-D and enables Dub auto-fetch).
+- **File → Open Folder** on a specific sample (e.g. `Wrappers/gtkd`) when you want that project’s Dub root and its own `.vscode/settings.json` (add per-sample formatters, `dubPath`, or debug configs there).
+
 ## How to Run
 
 Each sample is a standalone DUB project. Navigate to the project directory and run:

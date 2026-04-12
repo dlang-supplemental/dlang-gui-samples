@@ -1,0 +1,5 @@
+{
+  // Per-sample overrides (Dub, formatters, debug). Applies when this folder is the VS Code workspace root.
+  "d.dub.enableAutoFetch": true,
+  "powershell.cwd": "tkd"
+}

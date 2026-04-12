@@ -1,0 +1,5 @@
+{
+  "explorer.autoReveal": true,
+  "d.dub.enableAutoFetch": true,
+  "powershell.cwd": "dlang-gui-samples"
+}
