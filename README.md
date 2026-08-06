@@ -1,10 +1,36 @@
-# Dlang GUI Samples
+<a id="readme-top"></a>
 
-A collection of sample "Hello World" projects for various D language GUI toolkits, organized into Wrappers and Native libraries. List taken from <https://wiki.dlang.org/GUI_Libraries>.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-## Repository Structure
+<div align="center">
+  <h1>Dlang GUI Samples</h1>
+  <p>GUI toolkit samples for multiple GUI libraries in D.</p>
+  <p>
+    <a href="https://github.com/dlang-supplemental/dlang-gui-samples/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/dlang-supplemental/dlang-gui-samples/issues">Request Feature</a>
+  </p>
+</div>
 
-### Wrappers
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+A collection of sample "Hello World" projects for various D language GUI toolkits, organized into Wrappers and Native libraries. List taken from [GUI Libraries on the D Wiki](https://wiki.dlang.org/GUI_Libraries).
+
+### Repository Structure
+
+#### Wrappers
 These are D bindings or wrappers around existing C/C++ GUI libraries.
 
 - **[GtkD](Wrappers/gtkd)**: D bindings for GTK+.
@@ -23,7 +49,7 @@ These are D bindings or wrappers around existing C/C++ GUI libraries.
 - **[libuid](Wrappers/libuid)**: D bindings for libui.
 - **[Delta](Wrappers/delta)**: A lightweight GUI library.
 
-### Native
+#### Native
 These are GUI libraries written specifically for D or with heavy D-specific design.
 
 - **[DFL](Native/dfl)**: D Forms Library (Win32).
@@ -35,12 +61,12 @@ These are GUI libraries written specifically for D or with heavy D-specific desi
 - **[DlangUI](Native/dlangui)**: Cross-platform GUI for D.
 - **[DQuick](Native/dquick)**: A native D GUI library.
 
-## VS Code
+### VS Code
 
 - Open the **repository root** for catalog-wide defaults (`.vscode/settings.json` recommends Code-D and enables Dub auto-fetch).
-- **File → Open Folder** on a specific sample (e.g. `Wrappers/gtkd`) when you want that project’s Dub root and its own `.vscode/settings.json` (add per-sample formatters, `dubPath`, or debug configs there).
+- **File → Open Folder** on a specific sample (e.g. `Wrappers/gtkd`) when you want that project's Dub root and its own `.vscode/settings.json` (add per-sample formatters, `dubPath`, or debug configs there).
 
-## How to Run
+## Usage
 
 Each sample is a standalone DUB project. Navigate to the project directory and run:
 
@@ -49,3 +75,23 @@ dub run
 ```
 
 *Note: Some libraries may require external dependencies (e.g., GTK, Qt, Tcl/Tk) to be installed on your system.*
+
+## Contact
+
+DLang Supplemental — dlang@devcentr.org
+
+Project Link: https://github.com/dlang-supplemental/dlang-gui-samples
+
+Site: https://dlang-supplemental.github.io
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/dlang-supplemental/dlang-gui-samples.svg?style=for-the-badge
+[contributors-url]: https://github.com/dlang-supplemental/dlang-gui-samples/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dlang-supplemental/dlang-gui-samples.svg?style=for-the-badge
+[forks-url]: https://github.com/dlang-supplemental/dlang-gui-samples/network/members
+[stars-shield]: https://img.shields.io/github/stars/dlang-supplemental/dlang-gui-samples.svg?style=for-the-badge
+[stars-url]: https://github.com/dlang-supplemental/dlang-gui-samples/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dlang-supplemental/dlang-gui-samples.svg?style=for-the-badge
+[issues-url]: https://github.com/dlang-supplemental/dlang-gui-samples/issues
